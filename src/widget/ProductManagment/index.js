@@ -15,28 +15,28 @@ const ProductManagment = () => {
                 </div>
             </div>
             <div className="px-4 !grid grid-cols-2 md:!grid-cols-4 gap-x-2 md:!gap-x-2.5 gap-y-2 md:!gap-y-6">
-                <Link href={"#"}>
+                <Link href={"/free-course/course-details"}>
                     <Course courseCatagory />
                 </Link>
-                <Link href={"#"}>
+                <Link href={"/free-course/course-details"}>
                     <Course courseCatagory />
                 </Link>
-                <Link href={"#"}>
+                <Link href={"/free-course/course-details"}>
                     <Course courseCatagory />
                 </Link>
-                <Link href={"#"}>
+                <Link href={"/free-course/course-details"}>
                     <Course courseCatagory />
                 </Link>
-                <Link href={"#"}>
+                <Link href={"/free-course/course-details"}>
                     <Course courseCatagory />
                 </Link>
-                <Link href={"#"}>
+                <Link href={"/free-course/course-details"}>
                     <Course courseCatagory />
                 </Link>
-                <Link href={"#"}>
+                <Link href={"/free-course/course-details"}>
                     <Course courseCatagory />
                 </Link>
-                <Link href={"#"}>
+                <Link href={"/free-course/course-details"}>
                     <Course courseCatagory />
                 </Link>
             </div>

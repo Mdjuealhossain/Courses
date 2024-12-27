@@ -69,72 +69,72 @@ const UpcomingCourse = ({ tabs }) => {
                     <div className="w-full !grid grid-cols-1 sm:grid-cols-2 lg:!grid-cols-3 xl:!grid-cols-4 gap-2 md:!gap-3">
                         {isTab == "1" && (
                             <>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
                             </>
                         )}
                         {isTab == "2" && (
                             <>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
                             </>
                         )}
                         {isTab == "3" && (
                             <>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
-                                <Link href={"#"}>
+                                <Link href={"/free-course/course-details"}>
                                     <Course courseCatagory />
                                 </Link>
                             </>

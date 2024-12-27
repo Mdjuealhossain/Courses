@@ -27,7 +27,7 @@ const Header = () => {
                                     <Image height={28} width={28} alt="search-icon" className="w-6 h-6 " src="/assets/icons/2024-03-10T04-41-51.748Z-ostad-search.svg" />
                                     <p className="flex whitespace-nowrap text-body2 text-secondary">কোর্স সার্চ করুন</p>
                                 </button>
-                                <Link href={"#"} className=" font-semibold text-body2">
+                                <Link href={"/free-course"} className=" font-semibold text-body2">
                                     ফ্রী কোর্স
                                 </Link>
 
