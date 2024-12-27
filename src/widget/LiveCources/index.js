@@ -1,8 +1,9 @@
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+
 import Course from "@/components/Course";
 import Test from "@/components/Test";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
 import FacilitiesCard from "../facilitiesCard";
 
 const LiveCources = () => {
@@ -27,7 +28,7 @@ const LiveCources = () => {
                         </a>
                     </div>
                 </div>
-                <div className=" w-full md:!grid grid-cols-1 gap-4 md:!gap-5 sm:!grid-cols-2 md:!grid-cols-3">
+                <div className="!grid grid-cols-1 gap-4 w-full sm:!grid-cols-2 sm:!gap-6 lg:!gap-5 lg:!grid-cols-4">
                     <Link href={"#"}>
                         <Course />
                     </Link>
@@ -53,19 +54,19 @@ const LiveCources = () => {
             <div className="pt-10 md:!pt-16">
                 <div className="rounded-none md:!rounded-xl py-0 md:!py-8 !grid grid-cols-2 md:!flex flex-row w-full gap-4 items-center">
                     <div className=" bg-success_light py-3 md:!py-6 px-6 md:!px-8 flex flex-col items-start justify-center rounded-md gap-0.5 md:!gap-2 w-full">
-                        <p className="text-h4 md:!text-h1 text-ostad-black-70">৭,০০০+</p>
+                        <h1 className=" text-H1 font-bold">৭,০০০+</h1>
                         <p className=" whitespace-nowrap">জব প্লেসমেন্ট</p>
                     </div>
                     <div className=" bg-secondary_li py-3 md:!py-6 px-6 md:!px-8 flex flex-col items-start justify-center rounded-md gap-0.5 md:!gap-2 w-full">
-                        <p className="text-h4 md:!text-h1 text-ostad-black-70">১৫,০০০+</p>
+                        <h1 className=" text-H1 font-bold">১৫,০০০+</h1>
                         <p className=" whitespace-nowrap">লার্নার</p>
                     </div>
                     <div className=" bg-error_light py-3 md:!py-6 px-6 md:!px-8 flex flex-col items-start justify-center rounded-md gap-0.5 md:!gap-2 w-full">
-                        <p className="text-h4 md:!text-h1 text-ostad-black-70">৯০%</p>
+                        <h1 className=" text-H1 font-bold">৯০%</h1>
                         <p className=" whitespace-nowrap">কোর্স কমপ্লিশন রেট</p>
                     </div>
                     <div className=" bg-warning_light py-3 md:!py-6 px-6 md:!px-8 flex flex-col items-start justify-center rounded-md gap-0.5 md:!gap-2 w-full">
-                        <p className="text-h4 md:!text-h1 text-ostad-black-70">৪৬</p>
+                        <h1 className=" text-H1 font-bold">৪৬</h1>
                         <p className=" whitespace-nowrap">লাইভ কোর্স</p>
                     </div>
                 </div>

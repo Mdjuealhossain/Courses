@@ -1,5 +1,6 @@
-import Graguate from "@/components/Graguate";
 import React from "react";
+
+import Graguate from "@/components/Graguate";
 
 const Graguates = () => {
     return (

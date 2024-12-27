@@ -28,7 +28,9 @@ const Test = () => {
                     </div>
                 </div>
             </div>
-            <Image src={"/assets/image/home/test.webp"} height={230} width={526} alt="test" className="h-auto md:!aspect-[16/7] object-cover rounded-tl-lg rounded border md:!bg-ostad-black-opac border-gray_300" />
+            <div className=" md:h-223 h-100">
+                <Image src={"/assets/image/home/test.webp"} height={230} width={526} alt="test" className="h-full md:!aspect-[16/7] object-cover rounded-tl-lg rounded border max-h-full max-w-full w-full border-gray_300" />
+            </div>
         </div>
     );
 };

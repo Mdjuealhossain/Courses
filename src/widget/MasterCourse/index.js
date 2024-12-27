@@ -46,7 +46,7 @@ const MasterCourse = () => {
                     <div className="h-[1px] w-full bg-[#475467]"></div>
                 </div>
                 <div className="flex flex-col items-end gap-6">
-                    <div className="w-full !grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                    <div className="!grid grid-cols-1 gap-4 w-full sm:!grid-cols-2 sm:!gap-6 lg:!gap-5 lg:!grid-cols-4">
                         <Link href={"#"}>
                             <MasterCard free cardClass={" hover:border-warning_dark"} btnClass={"bg-primary text-white !border-primary hover:bg-secondary"} />
                         </Link>

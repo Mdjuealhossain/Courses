@@ -1,6 +1,7 @@
-import Goal from "@/components/Goal";
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
+
+import Goal from "@/components/Goal";
 
 const CareerGoal = () => {
     return (

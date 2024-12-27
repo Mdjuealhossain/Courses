@@ -32,15 +32,14 @@ module.exports = {
                 562: "35.125rem",
                 900: "60.875rem",
             },
-
-            maxWidth: {
-                sm: "33.75rem",
-                md: "45rem",
-                562: "43.75rem",
-                xl: "85rem",
-                "2xl": "96rem",
-                lg: "71.875",
-            },
+        },
+        maxWidth: {
+            sm: "33.75rem",
+            md: "45rem",
+            lg: "71.875rem",
+            562: "43.75rem",
+            xl: "85rem",
+            "2xl": "96rem",
         },
         colors: {
             // common
