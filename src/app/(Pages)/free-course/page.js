@@ -1,54 +1,85 @@
-import Button from "@/components/Button";
-import Image from "next/image";
+"use client";
 import React from "react";
+
+import Test from "@/components/Test";
+import BussinessMarketing from "@/widget/BussinessMarketing";
+import CourseTabs from "@/widget/CourseTabs";
+import Creatives from "@/widget/Creatives";
+import DataEngineering from "@/widget/DataEngineering";
+import ProductManagment from "@/widget/ProductManagment";
+import WebApp from "@/widget/Web&App";
 
 const FreeCourse = () => {
     return (
-        <div>
-            <div className="w-full px-4 mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg">
-                <div className="sticky transition-all duration-[200ms] ease-in-out top-[72px] z-10 !border-b border-ostad-black-opac p-3 bg-white flex flex-col gap-6 h-full">
-                    <div className="style-module_wrapper__5Imz5">
-                        <div className=" flex items-center overflow-auto gap-3 no-scrollbar p-3">
-                            {tabs.map((tab) => (
-                                <div key={tab.id}>
-                                    <Button className={" !border-divider flex items-center justify-center gap-2"}>
-                                        <Image height={18} width={18} alt="arrow" src={"/assets/icons/web.png"} />
-                                        {tab.title}
-                                    </Button>
-                                </div>
-                            ))}
+        <>
+            <section className="p-6 bg-white"></section>
+            <div className="flex flex-col md:gap-10 md:mt-16 mt-6 gap-6">
+                <section className="!sticky !top-0">
+                    <div className="w-full px-4 mx-auto sm:max-w-sm md:max-w-md relative lg:max-w-lg xl:max-w-lg">
+                        <CourseTabs tabs={tabs} />
+                    </div>
+                </section>
+                <section id={tabs[0].id}>
+                    <div className="w-full px-4 mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg">
+                        <WebApp />
+                    </div>
+                </section>
+                <section id={tabs[1].id}>
+                    <div className="w-full px-4 mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg">
+                        <ProductManagment />
+                    </div>
+                </section>
+                <section id={tabs[2].id}>
+                    <div className="w-full px-4 mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg">
+                        <BussinessMarketing />
+                    </div>
+                </section>
+                <section id={tabs[3].id}>
+                    <div className="w-full px-4 mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg">
+                        <DataEngineering />
+                    </div>
+                </section>
+                <section id={tabs[4].id}>
+                    <div className="w-full px-4 mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg">
+                        <div className="w-full !grid grid-cols-1 lg:!grid-cols-2 gap-4 md:!flex-row md:!gap-8 my-6">
+                            <Test />
+                            <Test />
                         </div>
                     </div>
-                </div>
+                </section>
+                <section id={tabs[5].id}>
+                    <div className="w-full px-4 mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg">
+                        <Creatives />
+                    </div>
+                </section>
             </div>
-            <div className=" h-screen">dgvdfv</div>
-            <div className=" h-screen">dgvdfv</div>
-        </div>
+        </>
     );
 };
 
 export default FreeCourse;
+
 const tabs = [
     {
-        id: "Web & App Development",
+        id: "Web&AppDevelopment",
         title: "Web & App Development",
         img: "/assets/icons/tab-icon.png",
         alt: "icon",
     },
     {
-        id: "Product Management & Design",
+        id: "ProductManagement&Design",
         title: "Product Management & Design",
         img: "/assets/icons/tab-icon.png",
         alt: "icon",
     },
     {
-        id: "Business & Marketing",
+        id: "Business&Marketing",
         title: "Business & Marketing",
         img: "/assets/icons/tab-icon.png",
         alt: "icon",
     },
     {
-        id: "Data Engineering",
+        id: "DataEngineering",
         title: "Data Engineering",
         img: "/assets/icons/tab-icon.png",
         alt: "icon",
@@ -60,7 +91,7 @@ const tabs = [
         alt: "icon",
     },
     {
-        id: "6",
+        id: "BlockchainDevelopment",
         title: "Blockchain Development",
         img: "/assets/icons/tab-icon.png",
         alt: "icon",

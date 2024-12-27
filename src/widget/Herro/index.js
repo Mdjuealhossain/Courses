@@ -7,7 +7,7 @@ import Button from "@/components/Button";
 const Herro = () => {
     return (
         <>
-            <div className="flex justify-center items-center my-6 md:!my-10">
+            <div className="flex justify-center items-center ">
                 <div className="cursor-pointer rounded-[48px] !border border-info_light md:!border-none bg-info_main hover:bg-opacity-20 bg-opacity-10 flex py-1.5 px-2.5 justify-center items-center gap-1.5">
                     <div className="gap-1 rounded-[20px] bg-xs text-xs text-white flex py-0 px-1.5 justify-center items-center">নতুন</div>
                     <div className="flex justify-center items-center">

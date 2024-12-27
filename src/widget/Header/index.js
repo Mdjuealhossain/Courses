@@ -1,9 +1,10 @@
 "use client";
-import Button from "@/components/Button";
-import SearchBar from "@/components/SearchBar";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+
+import Button from "@/components/Button";
+import SearchBar from "@/components/SearchBar";
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ const Header = () => {
     };
 
     return (
-        <div className="w-full flex items-center  z-50 top-0 transition-all duration-[400ms] ease-out">
+        <div className="w-full flex items-center z-50 top-0 transition-all duration-[400ms] ease-out">
             <div className="w-full h-full shadow-[0px_2px_4px_0px_rgba(0,0,0,0.08)] bg-paper_bg">
                 <div className="w-full max-w-xl mx-auto px-4">
                     <div className="w-full h-[4.5rem]  flex justify-between items-center gap-2 ">

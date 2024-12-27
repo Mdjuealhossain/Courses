@@ -13,7 +13,7 @@ import AppInstaller from "@/widget/AppInstaller";
 const Home = () => {
     return (
         <div>
-            <section>
+            <section className="my-6 md:!my-10">
                 <div className="w-full px-4 mx-auto sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-lg">
                     <Herro />
                 </div>
