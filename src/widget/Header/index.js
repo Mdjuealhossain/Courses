@@ -28,7 +28,7 @@ const Header = () => {
                                     <p className="flex whitespace-nowrap text-body2 text-secondary">কোর্স সার্চ করুন</p>
                                 </button>
                                 <Link href={"/free-course"} className=" font-semibold text-body2">
-                                    ফ্রী কোর্স
+                                    কোর্স
                                 </Link>
 
                                 {isOpen && <SearchBar close={toggleDropdown} />}
