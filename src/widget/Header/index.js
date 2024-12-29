@@ -34,9 +34,9 @@ const Header = () => {
                                 {isOpen && <SearchBar close={toggleDropdown} />}
                             </div>
                         </div>
-                        <Link href={"#"}>
+                        <Link href={"/login"}>
                             <Button className={" bg-warning_main hover:bg-warning_dark flex items-center justify-center gap-2"}>
-                                লগিন/সাইনআপ
+                                লগিন
                                 <Image height={18} width={18} alt="arrow" src={"/assets/icons/arrow_right.svg"} />
                             </Button>
                         </Link>

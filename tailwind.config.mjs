@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./src/pages/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/widget/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
+    content: ["./src/**/*.{js,jsx,ts,tsx}"],
     theme: {
         extend: {
             fontFamily: {
@@ -105,7 +105,7 @@ module.exports = {
             xl: "0px_4px_8px_-8px_rgba(8,31,77,0.20)",
             xxl: "0 8px 28px 2px rgba(61, 61, 61, 0.07)",
             "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
-            input: "0 0 8px rgba(139, 196, 63, .4)",
+            sign: "0px 0px 16px 0px rgba(228, 237, 240, 0.80)",
             social: "0px 0px 15px 3px rgba(143, 198, 69, 0.8);",
             playBtn: "0px 0px 25px 3px rgba(143, 198, 69, 0.8)",
         },
